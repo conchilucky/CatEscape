@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5639856114878574125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4992843002799391680}
+  - component: {fileID: 7589091376930128615}
+  m_Layer: 0
+  m_Name: LevelGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4992843002799391680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5639856114878574125}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7589091376930128615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5639856114878574125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69dbbd7300de5014bb38bd56dc7b2480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelPartsMisils:
+  - {fileID: 5172456837680127469, guid: 04789151379df1d46a14f6f0952a48e4, type: 3}
+  levelPartsRays:
+  - {fileID: 6780554257732243225, guid: a38ace6abb5941f4a8402a2664bc63bb, type: 3}
+  - {fileID: 7503949683971038567, guid: 9e5f6b271bd519f43bde43ebb1d4e817, type: 3}
+  - {fileID: 7973953454349022719, guid: 0f14264323d50c841956998b1d63f5ae, type: 3}
+  - {fileID: 2773202529600874077, guid: 47bef3f8855da0547967a202914b439b, type: 3}
+  levelColect:
+  - {fileID: 1397134875252724381, guid: 7c47cfbf01de8214e9572cac4f137cb4, type: 3}
+  - {fileID: 8525596361552477884, guid: 5e839008fcda1294db96da7ec45ab6c0, type: 3}
+  - {fileID: 7039041503015999338, guid: 238cf748d28f1fc4586b4241933571b5, type: 3}
+  - {fileID: 6206542117767458962, guid: fa69d37f4c35f254fbf19305f9779d0d, type: 3}
+  PowerUps:
+  - {fileID: 5270284544527702243, guid: 85bfeb566eb7bbc438625c519f41865c, type: 3}
+  Edificios:
+  - {fileID: 264000677168099176, guid: edf5e58a2564318428c82811e68ec33c, type: 3}
+  levelStaticRays: {fileID: 0}
+  generateRays: 0
+  generateColect: 0
+  generateMisils: 0
+  generateStaticRays: 0
+  generatePowerUps: 0
+  generateEdificios: 0
+  isGenerating: 0
+  isGeneratingRays: 0
+  isGeneratingMisils: 0
+  isGeneratingColect: 0
+  isGeneratingStaticRays: 0
+  isGeneratingPowerUps: 0
+  isGeneratingEdificios: 0
+  camera_Transform: {fileID: 0}
+  Generating: 0
+  JefeVieja: {fileID: 0}
+  UIVieja: {fileID: 0}
+  TiempoRespawnRay: 3

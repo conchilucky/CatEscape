@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5270284544527702243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2122686447522390534}
+  m_Layer: 0
+  m_Name: EscudoSolo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2122686447522390534
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5270284544527702243}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.95, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5653402621944299388}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &6478752762540134181
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2122686447522390534}
+    m_Modifications:
+    - target: {fileID: 1701741584901042265, guid: cfc8eee8676316f4b89312762d4a9ccf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701741584901042265, guid: cfc8eee8676316f4b89312762d4a9ccf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701741584901042265, guid: cfc8eee8676316f4b89312762d4a9ccf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701741584901042265, guid: cfc8eee8676316f4b89312762d4a9ccf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.076217785
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701741584901042265, guid: cfc8eee8676316f4b89312762d4a9ccf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.116939396
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701741584901042265, guid: cfc8eee8676316f4b89312762d4a9ccf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.62066793
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701741584901042265, guid: cfc8eee8676316f4b89312762d4a9ccf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7715487
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701741584901042265, guid: cfc8eee8676316f4b89312762d4a9ccf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -77.311
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701741584901042265, guid: cfc8eee8676316f4b89312762d4a9ccf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 23.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701741584901042265, guid: cfc8eee8676316f4b89312762d4a9ccf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -187.205
+      objectReference: {fileID: 0}
+    - target: {fileID: 2077879442649721571, guid: cfc8eee8676316f4b89312762d4a9ccf, type: 3}
+      propertyPath: m_Name
+      value: Escudo_CatEscape
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cfc8eee8676316f4b89312762d4a9ccf, type: 3}
+--- !u!4 &5653402621944299388 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1701741584901042265, guid: cfc8eee8676316f4b89312762d4a9ccf, type: 3}
+  m_PrefabInstance: {fileID: 6478752762540134181}
+  m_PrefabAsset: {fileID: 0}

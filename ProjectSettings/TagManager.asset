@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ObstaculoRayos
+  - ObstaculoMisil
+  - Mandarina
+  - UIMandarina
+  - SceneManage
+  - Escudo
+  - Obstaculo
+  - EscudoPowerUp
+  - ViejaMiraIzq
+  - ViejaMiraDerecha
+  - BotasSalto
+  - RatonDorado
+  - RatonNormal
+  - ImanObj
+  - TiendaCanva
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - Suelo
+  - UIMandarina
+  - 
+  - RatonUI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
